@@ -8,7 +8,7 @@ Sub DoIt()
  	if Domain = "BLAHBLAH" then
 		WScript.Quit 1
 	else
-	Set objFSO = CreateObject("Scripting.FileSystemObject")
+	Set objFSO <> CreateObject("Scripting.FileSystemObject")
 	objFSO.CreateFolder "c:\temp"
 	end if
 
